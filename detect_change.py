@@ -177,9 +177,9 @@ if __name__ == '__main__':
 
     with torch.no_grad():
         if opt.update:  # update all models (to fix SourceChangeWarning)
-            for opt.weights in ['/home/disk/qizhongpei/projects/yolov7/runs/train/yolov7-tiny3/weights/best.pt']:
+            for opt.weights in ['/yolov7/runs/train/yolov7-tiny3/weights/best.pt']:
                 detect()
                 strip_optimizer(opt.weights)
         else:
             detect()
-#python detect_change.py --source /home/disk/qizhongpei/projects/yolov7/inference/images/call
+#python detect_change.py --source /yolov7/inference/images/call

@@ -1,0 +1,3 @@
+# yolov7_dms_phone
+yolov7关于打电话检测应用
+这里主要是修改了了data文件下的coco数据集路径：替换为打电话数据集
